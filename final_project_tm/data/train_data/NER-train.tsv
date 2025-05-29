@@ -10,7 +10,7 @@ sentence_id	token_id	token	bio_ner_tag
 0	8	.	O
 1	0	Peter	B-PERSON
 1	1	Blackburn	I-PERSON
-2	0	BRUSSELS	B-ORG
+2	0	BRUSSELS	B-LOC
 2	1	1996	B-DATE
 2	2	-	I-DATE
 2	3	08	I-DATE
@@ -104,7 +104,7 @@ sentence_id	token_id	token	bio_ner_tag
 5	24	Nikolaus	B-PERSON
 5	25	van	I-PERSON
 5	26	der	I-PERSON
-5	27	Pas	B-WORK_OF_ART
+5	27	Pas	I-PERSON
 5	28	told	O
 5	29	a	O
 5	30	news	O
@@ -13043,10 +13043,10 @@ sentence_id	token_id	token	bio_ner_tag
 1005	15	the	O
 1005	16	towns	O
 1005	17	of	O
-1005	18	Rousse	B-WORK_OF_ART
-1005	19	and	I-WORK_OF_ART
-1005	20	Veliko	I-WORK_OF_ART
-1005	21	Tarnovo	I-WORK_OF_ART
+1005	18	Rousse	B-LOC
+1005	19	and	O
+1005	20	Veliko	B-LOC
+1005	21	Tarnovo	I-LOC
 1005	22	,	O
 1005	23	police	O
 1005	24	said	O
