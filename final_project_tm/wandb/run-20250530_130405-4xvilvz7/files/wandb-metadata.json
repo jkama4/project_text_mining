@@ -1,0 +1,31 @@
+{
+  "os": "Windows-11-10.0.26100-SP0",
+  "python": "CPython 3.12.9",
+  "startedAt": "2025-05-30T11:04:06.183533Z",
+  "program": "c:\\Users\\jayde\\OneDrive\\School\\Text Mining for AI\\project_text_mining\\final_project_tm\\nerc_bert.ipynb",
+  "codePath": "final_project_tm\\nerc_bert.ipynb",
+  "git": {
+    "remote": "https://github.com/jkama4/project_text_mining.git",
+    "commit": "2e22f773e83fb807788c1a8f261ffe95091fdfbb"
+  },
+  "email": "jaydenkashanimaleki@gmail.com",
+  "root": "c:\\Users\\jayde\\OneDrive\\School\\Text Mining for AI\\project_text_mining\\final_project_tm",
+  "host": "LAPTOP-JAYDENKM",
+  "executable": "c:\\Users\\jayde\\anaconda3\\envs\\text_mining_env_fixed\\python.exe",
+  "codePathLocal": "nerc_bert.ipynb",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "disk": {
+    "/": {
+      "total": "510821470208",
+      "used": "372436418560"
+    }
+  },
+  "memory": {
+    "total": "16518012928"
+  },
+  "cpu": {
+    "count": 6,
+    "countLogical": 12
+  }
+}
