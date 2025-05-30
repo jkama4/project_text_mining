@@ -9,10 +9,10 @@ The goal is to implement and compare different models across these tasks using d
 **NOTE: The instructions for usage of the models are provided in the Jupyter Notebooks.**
 
 ## 📁 Project Structure
-- [`nerc_crf.ipynb`](nerc_crf.ipynb) - CRF-based NER
-- [`nerc_bert.ipynb`](nerc_bert.ipynb) - BERT fine-tuning for NER
-- [`data`](data/) - Folder containing the provided and external datasets
-- [`utils.py`](utils.py) - Utility function for preprocessing and formatting
+- [`nerc_crf.ipynb`](final_project_tm/nerc_crf.ipynb) - CRF-based NER
+- [`nerc_bert.ipynb`](final_project_tm/nerc_bert.ipynb) - BERT fine-tuning for NER
+- [`data`](final_project_tm/data/) - Folder containing the provided and external datasets
+- [`utils.py`](final_project_tm/utils.py) - Utility function for preprocessing and formatting
 
 ## Named Entity Recognition and Classification (NERC)
 NERC is a NLP technique that recognises and labels nammed entities (e.g, locations, persons, organisations) in text.
@@ -25,10 +25,10 @@ The test dataset was provided by the university, [`NER-test.tsv`](data/test_data
 Since it was quite difficult to align with the provided test data, we applied spaCy's NER tags for alignment.
 
 ## NERC Model 1 - CRF
-The CRF was implemented using sklearn-crfsuite, and was trained on tokenised text with IOB-labels. - [`nerc_crf.ipynb`](nerc_crf.ipynb)
+The CRF was implemented using sklearn-crfsuite, and was trained on tokenised text with IOB-labels. - [`nerc_crf.ipynb`](final_project_tm/nerc_crf.ipynb)
 
 ## NERC Model 2 - BERT
-BERT was fine-tuned (bert-base-uncased) using HuggingFace Transformers on token-level annotations. The tokenisation was aligned using word_ids(), and training was done using the Trainer API. - [`nerc_bert.ipynb`](nerc_bert.ipynb)
+BERT was fine-tuned (bert-base-uncased) using HuggingFace Transformers on token-level annotations. The tokenisation was aligned using word_ids(), and training was done using the Trainer API. - [`nerc_bert.ipynb`](final_project_tm/nerc_bert.ipynb)
 
 ## Sentiment Analysis
 ...
